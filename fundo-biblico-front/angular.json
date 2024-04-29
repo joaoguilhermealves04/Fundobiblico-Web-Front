@@ -67,7 +67,8 @@
               "browserTarget": "fundo-biblico-front:build:production"
             },
             "development": {
-              "browserTarget": "fundo-biblico-front:build:development"
+              "browserTarget": "fundo-biblico-front:build:development",
+              "proxyConfig": "src/proxy.conf.js"
             }
           },
           "defaultConfiguration": "development"
